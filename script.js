@@ -64,6 +64,16 @@
 
 // 11. DOM მანიპულაცია: შექმენი HTML ელემენტების მასივი. map-ის გამოყენებით თითოეულ ელემენტზე დამატებული ტექსტი ჩაწერე.
 
+const elements = [
+  document.createElement("div"),
+  document.createElement("p"),
+  document.createElement("span"),
+];
+elements.map((el, index) => {
+  el.textContent = `ეს არის ელემენტი ${index + 1}`;
+  document.body.appendChild(el);
+});
+
 // 12. რიცხვების კვადრატები: დაწერე ფუნქცია, რომელიც მასივში არსებულ თითოეულ რიცხვს კვადრატში გაამრავლებს map-ის გამოყენებით.
 
 // Numbers = [2, 4, 6, 7];
@@ -74,7 +84,7 @@
 // console.log(NewNumbers);
 
 // 13. DOM ელემენტების აღება: დაწერე ფუნქცია, რომელიც forEach-ის გამოყენებით თითოეულ HTML ელემენტს ტექსტს მიუმატებს.
-// const Str = ["gega", "mako", "vaxo"];
+// const Str = ["gega", "mari", "vaxo"];
 
 // function createParagraphs(Str) {
 //   const con = document.getElementById("container");
