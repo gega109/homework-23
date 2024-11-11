@@ -64,15 +64,15 @@
 
 // 11. DOM მანიპულაცია: შექმენი HTML ელემენტების მასივი. map-ის გამოყენებით თითოეულ ელემენტზე დამატებული ტექსტი ჩაწერე.
 
-let elements = [
-  document.createElement("div"),
-  document.createElement("p"),
-  document.createElement("span"),
-];
-elements.map((el, index) => {
-  el.textContent = `ეს არის ელემენტი ${index + 1}`;
-  document.body.appendChild(el);
-});
+// let elements = [
+//   document.createElement("div"),
+//   document.createElement("p"),
+//   document.createElement("span"),
+// ];
+// elements.map((el, index) => {
+//   el.textContent = `ეს არის ელემენტი ${index + 1}`;
+//   document.body.appendChild(el);
+// });
 
 // 12. რიცხვების კვადრატები: დაწერე ფუნქცია, რომელიც მასივში არსებულ თითოეულ რიცხვს კვადრატში გაამრავლებს map-ის გამოყენებით.
 
