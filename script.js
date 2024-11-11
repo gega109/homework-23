@@ -64,7 +64,7 @@
 
 // 11. DOM მანიპულაცია: შექმენი HTML ელემენტების მასივი. map-ის გამოყენებით თითოეულ ელემენტზე დამატებული ტექსტი ჩაწერე.
 
-const elements = [
+let elements = [
   document.createElement("div"),
   document.createElement("p"),
   document.createElement("span"),
